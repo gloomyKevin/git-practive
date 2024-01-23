@@ -6,6 +6,11 @@ defineProps<{ msg: string }>()
 const count = ref(0)
 
 const changeCount = () => {
+  onlyIncrease();
+  console.log('increase trigger')
+}
+
+const onlyIncrease = () => {
   count.value++
 }
 
