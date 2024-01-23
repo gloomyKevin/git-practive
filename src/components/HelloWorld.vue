@@ -12,6 +12,8 @@ const changeCount = () => {
 
 const onlyIncrease = () => {
   count.value++
+  console.log('count.value: ', count.value);
+  console.log('count: ', count);
 }
 
 </script>
