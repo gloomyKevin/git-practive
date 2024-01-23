@@ -7,6 +7,8 @@ const count = ref(0)
 
 const changeCount = () => {
   count.value++
+  console.log('count.value: ', count.value);
+  console.log('count: ', count);
 }
 
 </script>
